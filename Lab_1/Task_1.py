@@ -9,4 +9,4 @@ otchestvo = input("Введите отчество : ")
 fio = f"{surname.capitalize()} {name[0].upper()}.{otchestvo[0].upper()}."
 
 
-print("Форматированное ФИО:", fio)
+print(f"Форматированное ФИО: {fio}")
